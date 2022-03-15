@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4aadf2e7d1.js" crossorigin="anonymous"></script>
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav id="navbar" class="nav-bar">
+        <h2 class="logo">Awesome Logo</h2>
+        <ul class="nav-list">
+            <li class="linkstyle delay0"><a class="navlink navlink0" href="#section1">Header One</a></li>
+            <li class="linkstyle delay1"><a class="navlink navlink1" href="#features">Header Two</a></li>
+            <li class="linkstyle delay2"><a class="navlink navlink2" href="#reviews">Header Three</a></li>
+            <li class="linkstyle delay3"><a class="navlink navlink3" href="#signup">Header Four</a></li>
+        </ul>
+    </nav>
+
+    <!-- video background/opening -->
+    <div id="welcome" class="opening-sec">
+        <div class="overlay"></div>
+            <video id="background-video" autoplay loop muted>
+                <source src="violin.mp4" type="video/mp4">
+            </video>
+        <h1>Welcome to my page.</h1>
+    </div>
+
+    <!-- section 1 -->
+    <div id="section1" class="section1">
+        <div class="info-area">
+            <h2>This website is pretty cool</h2>
+            <p>Get your very own Lorem Ipsum sequi temporibus! Aspernatur, itaque quaerat! Cumque, quisquam deleniti.</p>
+            <p>Lit vel voluptates eaque, sapiente tenetur eligendi at, minusque dignissimos provident iusto, eveniet amet accusamus.</p>
+            <button type="button" class="btn1">Get started!</button>
+        </div>
+        <div id="img-slideshow" class="img-area">
+            <img class="images" src="https://images.pexels.com/photos/111287/pexels-photo-111287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Woman playing a violin">
+            <img class="images" src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="A crowd at a music festival" height="260px" width="448px">
+            <img class="images" src="https://images.pexels.com/photos/934067/pexels-photo-934067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Pieces of sheet music" height="260px" width="448px">
+            <img class="images" src="https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="A microphone" height="260px" width="448px">
+            <img class="images" src="https://images.pexels.com/photos/2102568/pexels-photo-2102568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="A composer" height="260px" width="448px">
+            <img class="images" src="https://images.pexels.com/photos/210854/pexels-photo-210854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Musical components" height="260px" width="448px">
+            <div class="button-container">
+                <button class="btn-slider" onclick="plusImg(-1)">&#8678;</button>
+                <button class="btn-slider" onclick="plusImg(1)">&#8680;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div id="features" class="features-background">
+        <h2 style="font-size: 2.8rem;">Exciting features go here</h2>
+        <div class="features-container">
+            <div class="feature">
+                <img class="feature-img" src="https://images.pexels.com/photos/9539613/pexels-photo-9539613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="USD money" height="200px" width="200px">
+                <p class="text">Nisl pretium fusce id. Gravida rutrum quisque non.</p>
+            </div>
+
+            <div class="feature">
+                <img class="feature-img" src="https://images.pexels.com/photos/3687957/pexels-photo-3687957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="A shy kitten" height="200px" width="200px">
+                <p class="text">Arcu dictum varius duis at consectetur lorem.</p>
+            </div>
+
+            <div class="feature">
+                <img class="feature-img" src="https://images.pexels.com/photos/1561020/pexels-photo-1561020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Colorful painted background" height="200px" width="200px">
+                <p class="text">Enim lobortis scelerisque faucibus in. Sed nisi.</p>
+            </div>
+
+            <div class="feature">
+                <img class="feature-img" src="https://images.pexels.com/photos/4255717/pexels-photo-4255717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Items on a shelf" height="200px" width="200px">
+                <p class="text">Mi proin sed. Cum sociis natoque magnis</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- review section -->
+    <div id="reviews" class="review-section">
+        <div class="invert">
+            <h2>Just a few amazing reviews</h2>
+            <div class="reviews">
+                <blockquote><em>I sociwould Pharetra diam sit amet nisl suscipit adipiscing. defipoinitely recommesd thas purodukt</em><br><strong>- A customer</strong>   </blockquote>
+                <blockquote><em>Learn how to be happy with what you have while you pursue all that you want.</em><br><strong> - Jim Rohn</strong></blockquote>
+                <blockquote><em>Proin sagittis nisl rhoncus mattis rhoncus urna. Consectetur libero id faucibus nisl tincidunt.</em><br><strong> - Lorem Ipsum</strong></blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- sign up section -->
+    <div id="signup" class="signup-section">
+        <div class="info-container">
+            <div class="info">
+                <h2>Motivating call to action!</h2>
+                <p>Click that cool looking button on the right to sign up and get started today!</p>
+            </div>
+            <div class="btn-container">
+                <button type="button" class="btn2">Sign up here!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p>Copyright <i class="far fa-copyright"></i> This is a (cool) sample website</p>
+    </footer>
+
+</body>
+<script src="page.js"></script>
+</html>
